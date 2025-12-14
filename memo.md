@@ -16,8 +16,10 @@ git remote add origin https://github.com/prettyyefan/IJCNN2026.git
 
 git pull origin main --allow-unrelated-histories
 
-git add LICENSE
+# after
 
-git commit -m "anonymize license"
+git add memo.md
+
+git commit -m "update 2025.12.14"
 
 git push -u origin main
